@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="My personal homepage">
+    <meta name="author" content="Junjie Mao">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>enight - personal page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -26,121 +26,125 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
+        <![endif]-->
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand">
-          <a href="#top"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-        </li>
-        <li>
-          <a href="#top" onclick = $("#menu-close").click(); >Home</a>
-        </li>
-        <li>
-          <a href="#about" onclick = $("#menu-close").click(); >About</a>
-        </li>
-        <li>
-          <a href="#services" onclick = $("#menu-close").click(); >Services</a>
-        </li>
-        <li>
-          <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">enight</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#about" >About Me</a>
+            </li>
+            <li>
+              <a href="#hobbies">Hobbies</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
     </nav>
 
     <!-- Header -->
     <header id="top" class="header">
       <div class="text-vertical-center">
-        <h1>Start Bootstrap</h1>
-        <h3>Free Bootstrap Themes &amp; Templates</h3>
+        <h1>Fall into the Eternal Night...</h1>
         <br>
-        <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        <a href="/blog" class="btn btn-dark btn-lg">Go to My Blog</a>
       </div>
     </header>
 
-    <!-- About -->
+    <!-- About myself -->
     <section id="about" class="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-            <p class="lead">This theme features some wonderful photography courtesy of <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a>.</p>
+            <h2>关于我和这个网站</h2>
+            <p class="lead">我是茅俊杰，目前是一个系统软件和程序分析方向的研究生，去向不明中。这里是我蓄谋已久又一时兴起弄起来的个人主页，同时也搭了一个博客，用来记录自己平时所学所想的事情。</p>
           </div>
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
     </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <!-- Hobbies -->
+    <section id="hobbies" class="services bg-primary">
       <div class="container">
         <div class="row text-center">
           <div class="col-lg-10 col-lg-offset-1">
-            <h2>Our Services</h2>
+            <h2>爱好</h2>
             <hr class="small">
             <div class="row">
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                    <i class="fa fa-linux fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
-                    <strong>Service Name</strong>
+                    <strong>System Programming</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <p>重度emacsen一枚，使用电脑的方式主要是emacs和命令行（windows也一样）。</p>
+                  <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                    <i class="fa fa-book fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
-                    <strong>Service Name</strong>
+                    <strong>Classics</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <p>除开SICP、Coq'Art这类的话，剩下的主要是四书五经和诸子百家。最近在啃GEB。</p>
+                  <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                    <i class="fa fa-music fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
-                    <strong>Service Name</strong>
+                    <strong>Music</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <p>纯菜鸟，目前在follow Craig Wright教授的课。偏爱没有歌词的music。</p>
+                  <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                 </div>
               </div>
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                    <i class="fa fa-gamepad fa-stack-1x text-primary"></i>
                   </span>
                   <h4>
-                    <strong>Service Name</strong>
+                    <strong>Bullet Hell</strong>
                   </h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                  <a href="#" class="btn btn-light">Learn More</a>
+                  <p>东方Project N党一枚，时不时自己写SC画几何形状给自己钻。</p>
+                  <!-- <a href="#" class="btn btn-light">Learn More</a> -->
                 </div>
               </div>
             </div>
@@ -153,106 +157,40 @@
       <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-    <aside class="callout">
-      <div class="text-vertical-center">
-        <h1>Vertically Centered Text</h1>
-      </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h2>Our Work</h2>
-            <hr class="small">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="portfolio-item">
-                  <a href="#">
-                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- /.row (nested) -->
-            <a href="#" class="btn btn-dark">View More Items</a>
-          </div>
-          <!-- /.col-lg-10 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
+    <!-- About blog -->
+    <section id="blog" class="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h3>The buttons below are impossible to resist.</h3>
-            <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-            <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+            <h2>我的博客</h2>
+            <p class="lead"> 我维护的博客主要用来记录我的所学所想，主要的目的是避免以后我自己还要搜肠刮肚地去回忆这些东西。期待各位的驻足与讨论！</p>
+            <a href="/blog" class="btn btn-dark btn-lg">My Blog</a>
           </div>
         </div>
       </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
     </section>
 
     <!-- Footer -->
-    <footer>
+    <hr>
+    <footer id="contact">
       <div class="container">
-	<div class="row">
-	  <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4><strong>Start Bootstrap</strong>
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+            <h4><strong>Contact me</strong>
             </h4>
-            <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
-            <ul class="list-unstyled">
-              <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-              <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
-              </li>
-            </ul>
-            <br>
             <ul class="list-inline">
               <li>
-		<a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-              </li>
-              <li>
-		<a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-              </li>
-              <li>
-		<a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                <a href="mailto://junjie.mao@enight.me"><i class="fa fa-envelope fa-fw fa-3x"></i></a>
+                <a href="https://github.com/eternalNight"><i class="fa fa-github-square fa-fw fa-3x"></i></a>
+                <a href="https://cn.linkedin.com/pub/junjie-mao/5a/4b5/aba"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
               </li>
             </ul>
             <hr class="small">
-            <p class="text-muted">Copyright &copy; Your Website 2014</p>
-	  </div>
-	</div>
+            <p class="text-muted">Template from http://getbootstrap.com/</p>
+            <p class="text-muted">Copyright &copy; Junjie Mao 2015</p>
+            <a href="http://www.miitbeian.gov.cn/">沪ICP备15019799号</a>
+          </div>
+        </div>
       </div>
     </footer>
 
